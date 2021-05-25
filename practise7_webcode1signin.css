@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #19dafa;
+    font-family: sans-serif;
+}
+
+#form_style {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 5% auto 0;
+    /*chỗ này tách ra thành ba thuộc tình margin-top margin-right margin-bottom thì không được*/
+    text-align: center;
+    /*không có cái margin thì cũng chẳng làm gì được*/
+}
+
+#form_style h2 {
+    color: green;
+}
+
+.text_box {
+    border-radius: 20px;
+    /* bẻ cong 4 góc của box 20px*/
+    padding: 10px;
+    margin: 10px -10px;
+    width: 100%;
+    border: 1px solid #999;
+    /* định dạng cho border*/
+    outline: none;
+}
+
+button {
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    /*khi con tro di chuyển đến nó sẽ thay đổi từ mũi tên thành ình ngón tay*/
+}
+
+.Signup {
+    border-radius: 20px;
+    /* bẻ cong 4 góc của box 20px*/
+    padding: 10px;
+    margin: 10px 0px;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+    background-color: #19dafa;
+}
+
+hr {
+    width: 85%;
+}
+
+.OR {
+    margin: -18px auto 10px;
+    width: 30px;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #21afde;
+}
+
+img {
+    width: 50px;
+    margin-top: -15px;
+}
